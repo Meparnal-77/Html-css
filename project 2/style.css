@@ -1,0 +1,285 @@
+h1{
+	background-color:pink;
+	color:green;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:line through;
+	text-indent:30px;
+	letter-spacing:5px;
+	line-height:100px;
+text-shadow:5px 3px 2px black;}
+.new{
+	background-color:purple;
+	color:white;
+}
+#new{
+	background-color:blue;
+	color:white;
+}
+.image:hover{
+	text-align:center;
+	opacity:0.7;
+}
+.image:hover img {
+	opacity:1;
+	border:5px double red;
+	border-radius:50%;
+}
+.box1{
+	width:300px;
+	height:300px;
+	background-color:purple;
+	color:white;
+	padding:20px 20px;
+	box-sizing:content-box;
+	overflow:auto;
+}
+.box2{
+	width:400px;
+	height:400px;
+	background-color:green;
+	color:white;
+	padding-left:50px;
+	margin-top:20px;
+	overflow:auto;
+	box-sizing:content-box;
+}
+/*
+ul li{
+	height:50px;
+	border:3px solid blue;
+	clear:both;
+	width:150px;
+	line-height:50px;
+	background-color:red;
+	color:white;
+	display:inline-block;
+	text-align:center;
+	
+	
+}
+
+ol li{
+	margin-bottom:10px;
+	padding:20px;
+	border:5px dotted green;
+	display:inline-block;
+}
+*/
+
+dl dt{
+	border:3px solid black;
+	width:45px;
+
+}
+dl dd{
+	border:5px solid gray;
+	width:350px;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+	box-shadow:5px -3px 3px 5px gray;
+	position:relative;
+}
+.picture{
+	background-image:url(images/Bike2.jpg);
+	padding:200px 10px;
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+.picture h2{
+    text-align:center;
+	text-shadow:5px 5px 3px gray;
+	color:white;
+}
+.threepicture{
+	border:15px double transparent;
+	background-image:url(images/f.png),url(images/m.png),url(images/n.png);
+	background-repeat:no-repeat, no-repeat, repeat-x;
+	background-position:top left,top right,bottom;
+    padding:100px;
+	border-image:url(images/a.png) 50 round;
+}
+
+table,td{
+	border:5px solid red;
+	margin:0 auto;
+	
+    color:white;
+	text-align:center;
+	}
+th{
+	background-color:green;
+	color:white;
+}
+tr{
+	background-color:blue;
+}
+
+tr:hover{
+	background-color:yellow;
+	color:purple;
+}
+tr:nth-child(odd){
+	background-color:pink;
+	color:black;
+}
+tr:nth-child(even):hover{
+	background-color:red;
+}
+.logo{
+	float:left;
+}
+.banner{
+	float:right;
+
+	
+}
+.hello{
+	border:5px solid purple;
+	padding:30px;
+	margin:0 auto;
+}
+.hello img{
+	float:left;
+	padding-left:10px;
+}
+.buy{
+	text-align:center;
+}
+.dollor{
+	float:right;
+}
+.Boxes{
+border:5px solid red;
+background-image:url(ship.jpg);
+}
+.BoxA{
+	Border:5px solid blue;
+    float:left;
+    height:400px;
+    width:300px;
+    overflow:auto;
+    border-image:url(images/a.png) 30 round;
+	
+}
+.BoxA img{
+	float:left;
+	padding-left:10px;
+}
+.BoxB{
+	border:5px solid green;
+	height:400px;
+	width:300px;
+	overflow:auto;
+	border-image:url(images/a.png) 30 round;
+	float:right;
+	
+
+}
+.BoxB img{
+	float:left;
+	padding-left:10px;
+
+}
+.BoxC{
+	border:5px solid black;
+	margin:0 auto;
+	height:400px;
+	width:300px;
+    overflow:auto;
+    border-image:url(images/a.png) 30 round;	
+}
+.BoxC img{
+	float:left;
+	padding-left:10px;
+}
+.threebox{
+	position:relative;
+	
+	
+}
+.floatingbox{
+    height:200px;
+	width:300px;	
+	color:white;
+	text-align:center;
+	line-height:200px;
+	visibility:shown;
+	box-shadow:5px 5px 3px 3px gray;
+	
+	
+	
+}
+.firstbox{
+	
+	background-color:green;
+  
+}
+
+.secondbox{
+	
+	background-color:blue;
+	position:static;
+	left:50px;
+	top:50px;
+}
+
+.thirdbox{
+	
+	background-color:red;
+	
+}
+.np{
+	left:1300px;
+	width:100px;
+	height:50px;
+	border:5px solid black;
+	text-align:center;
+	background-color:blue;
+	color:white;
+	position:absolute;
+	
+}
+.np a{
+text-align:center;
+color:white;
+background-color:blue;
+}
+
+.menu{
+	clear:both;
+}
+.menu ul li{
+	height:50px;
+	border:3px solid blue;
+	width:150px;
+	line-height:50px;
+	background-image:url(images/pp.jpg);
+	color:white;
+	text-align:center;
+	float:left;
+	position:relative;
+	
+
+
+}
+.menu ul  li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	clear:both;
+	
+}
+.menu li:hover{
+	background-color:purple;
+}
+.menu ul li:hover ul{
+	display:block;
+}
+.menu ul ul{ 
+display:none;
+poaition:absolute;
+}
+
